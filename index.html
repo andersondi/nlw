@@ -6,30 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecoleta</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <!-- Cabeçalho -->
-    <header class="header__">
-        <img src="./assets/logo.svg" alt="Logotipo mostrando o triangulo de setas">
-        <a href="#"> <span> </span>Cadastre um ponto de coleta</a>
-    </header>
-    <!-- Conteúdo da pagina home -->
-    <main>
-        <session class="intro" id="home">
-            <h1 class="session__title session__title--intro">Seu marketplace de coleta de resíduos</h1>
-            <p>
-                Ajudamos pessoas a encontrar pontos de coleta de forma eficiente
-            </p>
-            <button class="btn">Pesquisar ponto de coleta</button>
-        </session>
-    </main>
-    <!-- Rodapé -->
-    <footer>
+    <div id="home">
+        <div class="content">
+            <!-- Cabeçalho -->
+            <header>
+                <img src="./assets/logo.svg" alt="Logotipo mostrando o triangulo de setas">
+                <a href="#"> <span class="span__icon span__icon--log-in"> </span>Cadastre um ponto de coleta</a>
+            </header>
 
-    </footer>
+            <!-- Conteúdo da pagina home -->
+            <main>
+                <session class="intro">
+                    <h1 class="session__title session__title--intro">Seu marketplace de coleta de resíduos</h1>
+                    <p>
+                        Ajudamos pessoas a encontrar pontos de coleta de forma eficiente
+                    </p>
+                </session>
+                <a href="#" class="btn__search"><span class="span__icon span__icon--search"></span>
+                    <p>
+                        Pesquisar ponto de coleta
+                    </p>
+                </a>
+            </main>
+
+            <!-- Rodapé -->
+            <footer>
+
+            </footer>
+        </div>
+    </div>
 </body>
 
 </html>
